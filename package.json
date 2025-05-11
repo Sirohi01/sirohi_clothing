@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://sirohi01.github.io/sirohi_clothing/home",
+  "homepage": "https://sirohi01.github.io/sirohi_clothing/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
