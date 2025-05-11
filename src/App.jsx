@@ -1,6 +1,6 @@
-    // src/App.js
+
     import React from 'react';
-    import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+    import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
     import Navbar from './components/Navbar';
     import Footer from './components/Footer';
     import Home from './pages/Home';
@@ -20,7 +20,8 @@
             <Navbar />
             <main className="main-content">
             <Routes>
-                <Route path="/" element={<Home />} />
+                <Route path="/" element={<Navigate to="/home" />} />
+                <Route path="/home" element={<Home />} />
                 <Route path="/shop" element={<Shop />} />
                 <Route path="/shop/:category" element={<Shop />} />
                 <Route path="/product/:id" element={<ProductDetails />} />
