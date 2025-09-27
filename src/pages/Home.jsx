@@ -72,7 +72,7 @@
         {/* Hero Section */}
         <section className="hero">
             <div className="hero-content">
-            <h1>ELEGANCE IN Sirohi Clothing</h1>
+            <h1>ELEGANCE IN Manish Clothing</h1>
             <p>Discover our timeless black and white collection</p>
             <Link to="/shop" className="btn">Shop Now</Link>
             </div>
