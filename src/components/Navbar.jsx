@@ -33,7 +33,7 @@
     return (
         <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
         <div className="container">
-            <Link to="/" className="logo">Sirohi Clothing</Link>
+            <Link to="/" className="logo">Manish Clothing</Link>
             
             <div className={`nav-links ${isOpen ? 'active' : ''}`}>
             <Link to="/">Home</Link>

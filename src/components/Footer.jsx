@@ -10,7 +10,7 @@
         <div className="container">
             <div className="footer-grid">
             <div className="footer-col">
-                <h3>Sirohi Clothing</h3>
+                <h3>manish Clothing</h3>
                 <p>Elevating style through minimalist black and white fashion since 2015.</p>
                 <div className="social-links">
                 <a href="#"><FaFacebook /></a>
@@ -27,6 +27,7 @@
                 <li><a href="/shop/women">Women's Collection</a></li>
                 <li><a href="/shop/summer">Summer Collection</a></li>
                 <li><a href="/shop/winter">Winter Collection</a></li>
+                 <li><a href="/shop/shoes">Shoes Collection</a></li>
                 </ul>
             </div>
             
@@ -51,7 +52,7 @@
             </div>
             
             <div className="footer-bottom">
-            <p>&copy; {new Date().getFullYear()} Sirohi Clothing. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} manish Clothing. All rights reserved.</p>
             <div className="legal-links">
                 <a href="#">Privacy Policy</a>
                 <a href="#">Terms of Service</a>
